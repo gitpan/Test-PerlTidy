@@ -1,0 +1,10 @@
+Build.PL
+Build.PL.tdy
+lib/Test/PerlTidy.pm
+MANIFEST			This list of files
+META.yml
+t/is_file_tidy.t
+t/list_files.t
+t/messy_file
+t/perltidy.t
+t/tidy_file

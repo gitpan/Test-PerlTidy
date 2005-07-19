@@ -1,0 +1,20 @@
+---
+name: Test-PerlTidy
+version: 0.01
+author:
+  - Edmund von der Burg E<lt>evdb@ecclestoad.co.ukE<gt>
+  - Please let me know if you have any comments or suggestions.
+  - L<http://ecclestoad.co.uk/>
+abstract: check that all your files are tidy.
+license: perl
+requires:
+  File::Slurp: 0
+  Module::Build: 0
+  Perl::Tidy: >=20031021
+  Test::Builder: 0
+  Text::Diff: 0
+provides:
+  Test::PerlTidy:
+    file: lib/Test/PerlTidy.pm
+    version: 0.01
+generated_by: Module::Build version 0.25
