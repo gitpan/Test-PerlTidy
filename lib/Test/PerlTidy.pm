@@ -11,11 +11,11 @@ use Text::Diff;
 use Test::Builder;
 require Exporter;
 use vars qw( @ISA @EXPORT );
-@ISA    = qw(Exporter);
+@ISA    = qw( Exporter );
 @EXPORT = qw( run_tests );
 
 our $VERSION;
-$VERSION = '0.01';
+$VERSION = '20050726';
 
 my $Test = Test::Builder->new;
 our $MUTE = 0;
@@ -170,7 +170,9 @@ L<Perl::Tidy>
 
 =head1 AUTHOR
  
-Edmund von der Burg E<lt>evdb@ecclestoad.co.ukE<gt>
+evdb@ecclestoad.co.uk Edmund von der Burg
+
+=head1 SUGGESTIONS
 
 Please let me know if you have any comments or suggestions.
 

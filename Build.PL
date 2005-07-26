@@ -13,6 +13,7 @@ my $build = Module::Build->new(
         'Perl::Tidy'    => '>=20031021',
         'Test::Builder' => 0,
     },
+    create_makefile_pl => 'passthrough',
 );
 
 $build->create_build_script;
