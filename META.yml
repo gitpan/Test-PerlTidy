@@ -1,18 +1,25 @@
 ---
 name: Test-PerlTidy
-version: 20050726
+version: 20070903
 author:
   - evdb@ecclestoad.co.uk Edmund von der Burg
 abstract: check that all your files are tidy.
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
+  File::Finder: 0
   File::Slurp: 0
   Module::Build: 0
-  Perl::Tidy: >=20031021
+  Perl::Tidy: '>=20031021'
   Test::Builder: 0
+  Test::More: 0
   Text::Diff: 0
 provides:
   Test::PerlTidy:
     file: lib/Test/PerlTidy.pm
-    version: 20050726
-generated_by: Module::Build version 0.25
+    version: 20070903
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

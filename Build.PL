@@ -7,13 +7,14 @@ my $build = Module::Build->new(
     module_name => 'Test::PerlTidy',
     license     => 'perl',
     requires    => {
-        'Text::Diff'    => 0,
+        'File::Finder'  => 0,
         'File::Slurp'   => 0,
         'Module::Build' => 0,
         'Perl::Tidy'    => '>=20031021',
         'Test::Builder' => 0,
+        'Test::More'    => 0,
+        'Text::Diff'    => 0,
     },
-    create_makefile_pl => 'passthrough',
 );
 
 $build->create_build_script;
