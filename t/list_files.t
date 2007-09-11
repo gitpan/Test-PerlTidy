@@ -7,7 +7,7 @@ use Test::PerlTidy;
 
 my @wanted_files = sort    #
   (
-    './Build.PL',                #
+    './Makefile.PL',             #
     './lib/Test/PerlTidy.pm',    #
     './t/list_files.t',          #
     './t/perltidy.t',            #

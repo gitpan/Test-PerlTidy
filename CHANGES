@@ -1,6 +1,0 @@
-CHANGES
-
-20070903 -  Added File::Finder as a prereq
-            Changed the META.yml file to be valid YAML
-            Added a CHANGES file
-
