@@ -8,4 +8,9 @@ use Test::PerlTidy;
 
 my $perltidyrc = File::Spec->catfile( 't', '_perltidyrc.txt' );
 
-run_tests( perltidyrc => $perltidyrc );
+run_tests(
+    path       => '.',
+    exclude    => ['blib'],
+    debug      => 0,
+    perltidyrc => $perltidyrc
+);
