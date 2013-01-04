@@ -37,7 +37,7 @@
             "File::Slurp" : "0",
             "File::Spec" : "0",
             "IO::File" : "0",
-            "Perl::Tidy" : "20031021",
+            "Perl::Tidy" : "20121207",
             "Test::Builder" : "0",
             "Test::More" : "0",
             "Text::Diff" : "0",
@@ -46,5 +46,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "20120621"
+   "version" : "20130104"
 }
